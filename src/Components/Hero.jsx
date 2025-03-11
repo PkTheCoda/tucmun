@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className='bg-[#FFF2DB] h-max font-roman flex flex-col items-center justify-center text-[#a86d36]'>
 
-      <div className='w-full bg-[#68421e] py-4 flex items-center justify-around text-white one-title mb-28'>
+      <div className='w-full bg-[#68421e] py-4 flex items-center justify-around text-white one-title'>
           <h2 className=''>
             TUCMUN 1
           </h2>
@@ -24,7 +24,8 @@ const Hero = () => {
           </div>
         </div>
 
-      <div className='flex flex-col items-center justify-center gap-y-28 w-full max-w-[70rem] mx-auto mb-28 px-4'> 
+      <div className='flex flex-col items-center justify-center gap-y-28 w-full max-w-[70rem] mx-auto my-8 lg:my-28 px-4'> 
+
         <div className='flex gap-x-12 items-center py-40'>
           <img src={column} alt="" className='h-[25rem]'/>
           <div className='flex flex-col gap-y-4 text-center font-semibold'>
