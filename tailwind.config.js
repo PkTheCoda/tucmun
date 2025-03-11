@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'outfit': ['Outfit', 'sans-serif'],
         'fig': ['Figtree', 'sans-serif'],
+        'roman': ['Gideon Roman', 'sans-serif']
       }
     },
   },
